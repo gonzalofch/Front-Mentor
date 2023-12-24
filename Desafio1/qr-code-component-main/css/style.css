@@ -1,0 +1,60 @@
+/*QR CHALLENGE STYLES*/
+/*Outfit*/
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+body {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #d5e1ef;
+}
+#section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#qr-item {
+  background: #fff;
+  margin-top: 5%;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+.img-container {
+  width: 90%;
+  margin: 5%;
+}
+img {
+  border-radius: 10px;
+  width: 100%;
+}
+.text-container {
+  width: 100%;
+}
+.text-container h2 {
+  font-size: 1.3em;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+.text-container p {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  width: 80%;
+  margin: 10%;
+  text-align: center;
+}
+@media (max-width: 375px) {
+  #qr-item {
+    width: 90%;
+  }
+}
+@media (min-width: 1440px) {
+  #qr-item {
+    width: 400px;
+  }
+}
